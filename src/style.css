@@ -1,0 +1,457 @@
+/* fuente ecológica */
+@font-face {
+    font-family: bioFont;
+    src: url(font/bioFont.otf);
+}
+
+/* grillas */
+ /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* media query */
+@media (min-width: 961px){
+    .img-tree {
+        width: 35%;
+        height: 35%;
+        border-radius: 10px;
+    }
+    .img-menu {
+        width: 35%;
+        height: 35%;
+    }
+    /* body {
+        background: url('https://i.ibb.co/r3YbMbQ/fondo.jpg') no-repeat center center fixed;
+    } */
+}
+
+@media (min-width: 769px) and (max-width: 960px){
+    .img-tree {
+        width: 25%;
+        height: 25%;
+        border-radius: 10px;
+    }
+    .img-menu {
+        width: 25%;
+        height: 25%;
+    }
+    /* body {
+        background: url('https://i.ibb.co/r3YbMbQ/fondo.jpg') no-repeat center center fixed;
+    } */
+}
+
+@media only screen and (max-width: 768px) {
+  /* grilla */
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  #left-menu {
+    display: none;
+  }
+    /* body {
+        background: url('https://i.ibb.co/bRdZbNC/fnd2.jpg') no-repeat center center fixed;
+    } */
+    .img-tree {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+}
+
+/* estilos generales */
+* {
+    font-family: bioFont;
+    padding: 0px;
+    margin: 0px;
+}
+aside{
+    float: left;
+    height: 50%;
+}
+section{
+    float: right;
+    height: 50%;
+    width: 100%;
+}
+#profile{
+    margin-right:100px;
+}
+body {
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    padding: 80px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+}
+
+header, footer {
+    background-color: #df2b6a;
+    color: white;
+}
+
+footer {
+    /* color: rgba(32, 24, 24, 0.883); */
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-bio {
+    font-family: bioFont;
+}
+
+.center-items {
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(12, 92, 141);
+}
+
+.input-rg-li {
+    background-color: rgba(248, 250, 250);
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btn-registrar {
+    text-decoration: none;
+    background-color: rgb(121, 224, 231, 0.7);
+    color: rgb(15, 15, 15);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 5px;
+}
+
+
+.post-background {
+    background:#fff;
+    opacity: 0.8;
+    border-radius: 6px;
+    margin: 5%;
+}
+
+.title-post {
+    font-size: 12px;
+    text-align:left;
+    margin: 3%;
+}
+
+.ico-fb, .ico-google {
+    width: 40px;
+    height: 40px;
+}
+
+.warning {
+    color: red;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+	left: 0;
+	top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;	
+    z-index: 100;
+    padding: 0 15px;
+}
+
+#container {
+    background: beige;
+    border-radius: 6px;
+}
+
+.home {
+    padding: 10px;
+    background: beige;
+}
+
+.btns-home {
+    background: rgb(164, 231, 248);
+    border: 1px solid #dfdcdc;
+    border-radius: 6px;
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.btns-home:hover{
+    background: #9BD02A;
+    color:beige;
+}
+
+.link-delete {
+    background-image: url('https://image.flaticon.com/icons/png/512/221/221755.png');
+    background-size: cover;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    float: right;
+}
+
+.align-left {
+    text-align: right;
+}
+
+#txt-post {
+    width: 90%;
+    border: 0px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 10px #404040;
+    padding: 15px;
+    color: rgb(49, 61, 54);
+    box-sizing: border-box;
+}
+.container-add-post {
+    margin-top: 1em;
+}
+
+#container-textarea {
+    width: 95%;
+}
+#txt-post:focus {
+    outline-style: none;
+}
+
+/* .btn-wall {
+    background-color: rgb(12, 95, 146);
+    color: #fff;
+    border-radius: 5px;
+ } */
+ 
+ /* .btn-wall {
+    background-color:rgb(12, 95, 146);
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    box-shadow: unset 0px 0px 10px #404040;
+ } */
+ 
+ .select-security {
+    background-color: #30421c;
+    color: #fff;
+    border-radius: 2px;
+ }
+
+.menu { 
+   transform: translate(50px,0px);
+}
+ul, ol {
+ list-style:none;
+}
+.nav > li {
+ float:right;
+}
+			
+.nav li a {
+ color:#fff;
+ text-decoration:none;
+ padding:10px 12px;
+ display:block;
+}
+			
+.nav li a:hover {
+ background-color:#434343;
+}
+			
+.nav li ul {
+ display:none;
+ position:absolute;
+ min-width:140px;
+ background-color:rgb(12, 95, 146, 0.7);
+}
+			
+.nav li:hover > ul {
+ display:block;
+}
+            			
+.nav li ul li {
+ position:relative;
+}
+			
+.nav li ul li ul {
+ right:140px;
+ top:0px
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+}
+
+/* Cantidad de likes */
+.div-likes {
+    text-align: right;
+    padding: 10px;
+}
+
+.btn-like, .p-likes {
+    display: inline-block;
+}
+
+.btn-like {
+    background-image: url('https://i.ibb.co/KrNJdj6/like-Green.png');
+    background-size: cover;
+    width: 22px;
+    height: 18px;
+}
+
+#advertising div{
+    margin: 5em;
+}
+
+.link-btn, .btn-like {
+    cursor: pointer;
+}
+
+.unseen { 
+    display: none;
+}
+.link { color: rgba(31, 35, 82, 0.8);}
+.link:hover { color:white; }
+.color-txt-link{ color: rgba(250, 65, 9, 0.959);}
+
+
+
+
+/* F O N T E L L O   F O N T */
+@font-face {
+    font-family: 'fontello';
+    src: url('./font/fontello.eot?68205481');
+    src: url('./font/fontello.eot?68205481#iefix') format('embedded-opentype'),
+         url('./font/fontello.woff2?68205481') format('woff2'),
+         url('./font/fontello.woff?68205481') format('woff'),
+         url('./font/fontello.ttf?68205481') format('truetype'),
+         url('./font/fontello.svg?68205481#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+  /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+  /*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?68205481#fontello') format('svg');
+    }
+  }
+  */
+   
+   [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+   
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+   
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+   
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+   
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+   
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+   
+  .icon-up-big:before { content: '\e800'; } /* '' */
+  .icon-search:before { content: '\e801'; } /* '' */
+  .icon-menu:before { content: '\f0c9'; } /* '' */
+
+
+  /* M E N Ú   H A M B U R G U E S A */
+.menu-input {
+    display: none;
+    box-sizing: border-box;
+}
+        
+.menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(51, 51, 51,0.9);
+    transition: all 0.5s;
+    transform: translateX(-110%);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    text-align: left;
+}
+       
+.menu a:hover {
+    background:rgba(255,255,255,0.5); 
+}
+     
+.menu-input:checked ~ .menu {
+    transform: translateX(0%);
+}
