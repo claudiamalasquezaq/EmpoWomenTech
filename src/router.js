@@ -2,6 +2,11 @@ import register from './UI/register.js';
 import home from './UI/home.js';
 import login from './UI/login.js';
 import courses from './UI/courses.js';
+import html from './UI/html.js';
+import css from './UI/css.js';
+import bootstrap from './UI/bootstrap.js';
+import wordPress from './UI/wordPress.js';
+import test from './UI/test.js';
 export  const viewTemplate = (routers) => {
   const router = routers.substr(2, routers.length - 2);
   const container = document.getElementById('container');
@@ -33,11 +38,14 @@ export  const viewTemplate = (routers) => {
     case 'wordPress':
     container.appendChild(wordPress());
     break;
+    case 'test':
+    container.appendChild(test());
+    break;
   }
 };
 
 export const changeTemplate = (hash) => {
-  if(hash === 'home' || hash === '#/register' || hash === '#/login' || hash === '#/courses' || hash === '#/html' || hash === '#/css' || hash === '#/bootstrap' || hash === '#/wordPress') return viewTemplate(hash);
+  if(hash === 'home' || hash === '#/register' || hash === '#/login' || hash === '#/courses' || hash === '#/html' || hash === '#/css' || hash === '#/bootstrap' || hash === '#/wordPress' || hash === '#/test') return viewTemplate(hash);
   else return viewTemplate('#/home'); 
 };
 
