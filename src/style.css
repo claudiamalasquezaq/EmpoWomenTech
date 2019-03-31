@@ -33,9 +33,6 @@
     .img-course {
         width: 900px;
     }
-    /* body {
-        background: url('https://i.ibb.co/r3YbMbQ/fondo.jpg') no-repeat center center fixed;
-    } */
 }
 
 @media (min-width: 769px) and (max-width: 960px){
@@ -51,9 +48,6 @@
         width: 25%;
         height: 25%;
     }
-    /* body {
-        background: url('https://i.ibb.co/r3YbMbQ/fondo.jpg') no-repeat center center fixed;
-    } */
 }
 
 @media only screen and (max-width: 768px) {
@@ -71,12 +65,8 @@
   #container {
       background: #fff;
   }
-    /* body {
-        background: url('https://i.ibb.co/bRdZbNC/fnd2.jpg') no-repeat center center fixed;
-    } */
     .img-tree {
         width: 200px;
-        /* height: 100px; */
         border-radius: 10px;
     }
 }
@@ -222,45 +212,11 @@ header {
     color:beige;
 }
 
-.link-delete {
-    background-image: url('https://image.flaticon.com/icons/png/512/221/221755.png');
-    background-size: cover;
-    background-position: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    float: right;
-}
 
 .align-left {
     text-align: right;
 }
 
-#txt-post {
-    width: 90%;
-    border: 0px;
-    border-radius: 8px;
-    box-shadow: inset 0px 0px 10px #404040;
-    padding: 15px;
-    color: rgb(49, 61, 54);
-    box-sizing: border-box;
-}
-.container-add-post {
-    margin-top: 1em;
-}
-
-#container-textarea {
-    width: 95%;
-}
-#txt-post:focus {
-    outline-style: none;
-}
- 
- .select-security {
-    background-color: #30421c;
-    color: #fff;
-    border-radius: 2px;
- }
 
 .menu { 
    transform: translate(50px,0px);
@@ -314,22 +270,6 @@ ul, ol {
     height: 50%;
 }
 
-/* Cantidad de likes */
-.div-likes {
-    text-align: right;
-    padding: 10px;
-}
-
-.btn-like, .p-likes {
-    display: inline-block;
-}
-
-.btn-like {
-    background-image: url('https://i.ibb.co/KrNJdj6/like-Green.png');
-    background-size: cover;
-    width: 22px;
-    height: 18px;
-}
 
 #advertising div{
     margin: 5em;
@@ -454,11 +394,6 @@ ul, ol {
     font-size: 15px;
     width: 100%;
 }
-
-/* .img-course {
-   width: 700px;
-   height: 300px;
-} */
 
 .div-white {
     background: #fff;

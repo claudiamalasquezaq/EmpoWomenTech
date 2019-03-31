@@ -30,14 +30,3 @@ describe('passwordValidation', () => {
     expect(passwordValidation(passwordTrue)).toEqual(true)
   });
 });
-
-
-
-// describe('increaseLikes', () => {
-//   it('Debería ser una función', () => {
-//     expect(typeof increaseLikes).toBe('function');
-//   });
-//   it('Debería aumentar el número de likes en 1', () => {
-//     expect(increaseLikes('p001')).toEqual(1);
-//   });
-// });

@@ -1,5 +1,4 @@
 import { createUser, signIn, confirmUniqueProfile, authenticationGoogle, authenticationFacebook, signOut } from './firebase-controller.js';
-// addPublish, deletePublish, editPublish, userData,
 import { emailValidation } from './lib/index.js';
 
 const changeHash = (hash) => {
@@ -104,25 +103,3 @@ export const registerWithEmailAndPassword = () => {
       .then(() => changeHash('#/home'))
       .catch(() => {})
   };
-
-  // export const addPublishOnSubmit = (event) => {
-  //   event.preventDefault();
-  //   const security = document.getElementById('select-security').value;
-  //   const input = document.getElementById('txt-post');
-  //   if (input.value !== '') {
-  //     const email = userData();
-  //     addPublish(email, input.value, security)
-  //       .catch((error) => {
-  //         alert('Su post no puede ser publicado: ', error);
-  //       })
-  //   }
-  //   else alert('Debe ingresar texto en el post para publicar');
-  // };
-
-  // export const deletePublishOnClick = (objPost) => {
-  //   if (confirm('¿Está seguro de eliminar este post?'))
-  //     return deletePublish(objPost.id);
-  // };
-
-  // export const editPublishOnClick = (objPost) => 
-  //   editPublish(objPost.id, document.getElementById('text-edit').value);
