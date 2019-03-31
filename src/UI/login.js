@@ -5,7 +5,7 @@ export default () => {
   const formElem = document.createElement('form');
   const formContent = `<div>
       <h2>INICIA SESIÓN</h2>
-      <img alt="image-tree" src="https://i.ibb.co/F0vckNw/img-tree.png" class="img-tree"/>
+      <img alt="image-tree" src="https://i.ibb.co/2SZvNn0/Whats-App-Image-2019-03-30-at-10.png" class="img-tree"/>
       <div> 
         <i class="fas fa-user"></i>
         <input id="email" type="text" placeholder="Usuario">

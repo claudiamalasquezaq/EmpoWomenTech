@@ -1,6 +1,7 @@
 import register from './UI/register.js';
 import home from './UI/home.js';
 import login from './UI/login.js';
+import courses from './UI/courses.js'
 export  const viewTemplate = (routers) => {
   const router = routers.substr(2, routers.length - 2);
   const container = document.getElementById('container');
@@ -19,7 +20,8 @@ export  const viewTemplate = (routers) => {
       break;
     case 'courses': 
     // C U R S O S
-    container.innerHTML='Aquí contenido de cursos';
+    container.appendChild(courses());
+    // container.innerHTML='Aquí contenido de cursos';
     // getPublish((post) => {
     //   container.innerHTML = '';
     //   container.appendChild(wall(post));

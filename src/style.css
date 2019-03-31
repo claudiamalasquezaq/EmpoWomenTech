@@ -30,6 +30,9 @@
         width: 35%;
         height: 35%;
     }
+    .img-course {
+        width: 900px;
+    }
     /* body {
         background: url('https://i.ibb.co/r3YbMbQ/fondo.jpg') no-repeat center center fixed;
     } */
@@ -40,6 +43,9 @@
         width: 25%;
         height: 25%;
         border-radius: 10px;
+    }
+    .img-course {
+        width: 800px;
     }
     .img-menu {
         width: 25%;
@@ -59,12 +65,18 @@
   #left-menu {
     display: none;
   }
+  .img-course {
+      width: 300px;
+  }
+  #container {
+      background: #fff;
+  }
     /* body {
         background: url('https://i.ibb.co/bRdZbNC/fnd2.jpg') no-repeat center center fixed;
     } */
     .img-tree {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        /* height: 100px; */
         border-radius: 10px;
     }
 }
@@ -103,12 +115,11 @@ body {
 }
 
 header, footer {
-    background-color: #df2b6a;
+    background-color: #25CED1;
     color: white;
 }
 
 footer {
-    /* color: rgba(32, 24, 24, 0.883); */
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -244,26 +255,6 @@ header {
 #txt-post:focus {
     outline-style: none;
 }
-
-/* .btn-wall {
-    background-color: rgb(12, 95, 146);
-    color: #fff;
-    border-radius: 5px;
- } */
- 
- /* .btn-wall {
-    background-color:rgb(12, 95, 146);
-    border: none;
-    color: white;
-    padding: 5px 22px;
-    text-align: right;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2px;
-    cursor: pointer;
-    box-shadow: unset 0px 0px 10px #404040;
- } */
  
  .select-security {
     background-color: #30421c;
@@ -385,7 +376,6 @@ ul, ol {
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
-    speak: none;
    
     display: inline-block;
     text-decoration: inherit;
@@ -454,4 +444,22 @@ ul, ol {
      
 .menu-input:checked ~ .menu {
     transform: translateX(0%);
+}
+
+/* B O T Ó N   E N  E L   C A R R U S E L  D E  C U R S O S */
+.btn-go-course {
+    background: white;
+    color: purple;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%;
+}
+
+/* .img-course {
+   width: 700px;
+   height: 300px;
+} */
+
+.div-white {
+    background: #fff;
 }

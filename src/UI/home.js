@@ -3,6 +3,7 @@ export default () => {
   const formContent = `
   <div class="home">
     <h2>¡Bienvenida!</h2>
+    <img src="https://www.staticjbx.com/images/blog/80481/80481_desktop_623eb2043e71f542c82d5d5bb3fb6601_photo.jpg" class="img-tree"/>
     <p>
       EmpoWomenTech es una app educativa que te ayudará a conseguir un trabajo como maquetadora web adquiriendo
       conocimientos en HTML5, CSS3 Y Bootstrap 4.
